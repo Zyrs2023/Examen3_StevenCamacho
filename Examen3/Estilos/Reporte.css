@@ -1,0 +1,71 @@
+﻿
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+
+.mydatagrid {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .mydatagrid th, .mydatagrid td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .mydatagrid th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+
+.pager {
+    text-align: center;
+    margin-top: 10px;
+}
+
+    .pager a {
+        text-decoration: none;
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 5px;
+        margin: 2px;
+    }
+
+        .pager a:hover {
+            background-color: #0056b3;
+        }
+
+
+.rows:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.rows:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
